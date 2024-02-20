@@ -1,3 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 body {
   background-color: #c8c8c8;
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+}
+div {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 1.5em;
+  width: fit-content;
+  box-shadow: 5px 5px 5px 10px grey;
+}
+table {
+  background-color: #fff;
+  border-collapse: collapse;
+  text-align: center;
+}
+.tableTitle {
+  border-top: 0.1em solid #fff;
+  border-left: 0.1em solid #fff;
+  text-align: left;
+}
+tr,
+th,
+td {
+  padding: 1em;
+  border: 0.1em solid;
+}
+th {
+  font-size: 2rem;
+}
+span {
+  font-weight: bold;
+}
+.orange {
+  background-color: #f9801f;
+  color: white;
+  border-color: black;
+}
+.green {
+  background-color: #00985e;
+  color: white;
+  border-color: black;
+}
+.pink {
+  background-color: #825679;
+  color: white;
+  border-color: black;
+}
+.purple {
+  background-color: #00a6b3;
+  color: white;
+  border-color: black;
+}
+.black {
+  background-color: black;
+  color: white;
+  border-color: black;
 }
