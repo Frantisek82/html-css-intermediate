@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        font-size: 0.785rem;
+        --blue: #0d6efd;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #d63384;
+        --red: #dc3545;
+        --orange: #fd7e14;
+        --yellow: #ffc107;
+        --green: #198754;
+        --teal: #20c997;
+        --cyan: #0dcaf0;
+        --dark: #292a2b;
+      }
+      div {
+        font-family: "Fredoka", sans-serif;
+        background-color: var(--dark);
+        height: 100vh;
+        padding: 2em 3em;
+      }
+      p {
+        max-width: 70%;
+        margin: 2% auto;
+        font-family: "Rubik", sans-serif;
+        padding: 0.5em 0.8em;
+        border-radius: 0.3rem;
+        transition: all 0.2s ease-in-out 0.1s;
+      }
+      p:first-of-type::first-letter {
+        font-size: 5em;
+        float: left;
+        padding-right: 0.3em;
+        color: var(--yellow);
+        font-family: "Fredoka", sans-serif;
+      }
+      p:first-of-type::first-line {
+        font-weight: bold;
+      }
+      p:first-of-type {
+        background-color: var(--green);
+      }
+      p:nth-child(even) {
+        background-color: var(--blue);
+        color: #fff;
+      }
+      p:nth-child(odd):not(:first-of-type) {
+        background-color: var(--orange);
+      }
+      p:hover {
+        font-size: 1.8rem !important;
+        background-color: var(--red) !important;
+        transform: rotate(-5deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam porro
+        qui cupiditate corrupti deleniti necessitatibus harum illo, velit quasi
+        temporibus vel accusamus! Libero placeat molestiae non nihil
+        reprehenderit, fuga dignissimos!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium
+        nesciunt perferendis illo enim, quis quam. Consequatur asperiores,
+        laudantium vero saepe expedita quasi corrupti cum libero, incidunt
+        inventore, aut eos!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+        distinctio cumque repellat asperiores modi odit, in praesentium
+        veritatis, non inventore facere! Incidunt quos aliquid officia.
+        Voluptatibus exercitationem sapiente quo quae.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+        nesciunt. Ea distinctio cumque inventore perferendis, sed pariatur unde
+        atque ullam doloremque, fuga repellendus necessitatibus enim laboriosam
+        natus ab dicta non!
+      </p>
+    </div>
+  </body>
+</html>
