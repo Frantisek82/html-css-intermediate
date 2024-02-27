@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      :root {
+        font-size: 0.785rem;
+        font-family: "Rubik", sans-serif;
+        --blue: #0d6efd;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #d63384;
+        --red: #dc3545;
+        --orange: #fd7e14;
+        --yellow: #ffc107;
+        --green: #198754;
+        --teal: #20c997;
+        --cyan: #0dcaf0;
+        --dark: #292a2b;
+      }
+      html,
+      body,
+      #l_side,
+      #r_side,
+      section {
+        height: 100%;
+      }
+      h1,
+      h2 {
+        font-family: "Fredoka", sans-serif;
+        text-transform: capitalize;
+        margin-bottom: 1em;
+      }
+      header {
+        padding: 2em 1em 1em;
+        background-color: var(--green);
+        text-align: center;
+      }
+      #l_side {
+        float: left;
+        width: 25%;
+        background-color: var(--pink);
+      }
+      #r_side {
+        float: right;
+        width: 25%;
+        background-color: var(--red);
+      }
+      section {
+        float: left;
+        width: 50%;
+        background-color: var(--blue);
+      }
+      #l_side,
+      #r_side,
+      section {
+        padding: 1em;
+        display: inline-block;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        padding: 0.3em;
+        border: 3px solid var(--dark);
+        border-radius: 0.3rem;
+        margin-bottom: 1em;
+      }
+      p:not(footer p) {
+        margin-bottom: 1em;
+      }
+      footer {
+        clear: both;
+        background-color: var(--dark);
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 2em 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>3 floating columns</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        quibusdam consectetur magni dolores, ullam provident sit autem eaque
+        repellendus modi, est fugit dicta velit voluptas consequuntur vero error
+        doloribus ipsam!
+      </p>
+    </header>
+    <aside id="l_side">
+      <h2>left</h2>
+      <img
+        src="https://thumbs.dreamstime.com/b/small-beach-ferradurinha-sea-roc-buzios-rio-de-janeiro-brazil-sand-water-rock-near-45620161.jpg"
+        alt="playa 1"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        illo sapiente vero earum unde consectetur iure, sequi, quisquam
+        necessitatibus, dolorem voluptates vitae expedita ducimus doloremque
+        porro accusantium quis distinctio voluptatum?
+      </p>
+    </aside>
+    <section>
+      <h2>middle</h2>
+      <img
+        src="https://www.usnews.com/object/image/00000162-d53a-d489-a7e2-d7bf4de10000/2-saugatuck-michigan.jpg?update-time=1523995790817&size=responsive640"
+        alt="playa 2"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam optio
+        quae sapiente tempora excepturi voluptates, amet voluptatum aliquid enim
+        mollitia iusto culpa rerum possimus odit praesentium tempore doloribus,
+        aliquam sit!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
+        fuga expedita. Possimus vel veniam cum eaque, necessitatibus repellendus
+        inventore minima, in pariatur quidem unde nisi perspiciatis. Non
+        reprehenderit quod nam. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Magni esse modi, culpa vel ipsa assumenda debitis
+        repellat velit inventore dolor quas facilis sequi cupiditate
+        consequuntur dolores quam possimus harum facere!
+      </p>
+    </section>
+    <aside id="r_side">
+      <h2>Right</h2>
+      <img
+        src="https://www.usnews.com/object/image/00000162-d53a-d489-a7e2-d7bf62fb0000/5-block-island-rhode-island.jpg?update-time=1523995796220&size=responsive640"
+        alt="playa 3"
+      />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias
+      corporis totam officiis, cupiditate in facilis iure ipsum. Architecto
+      repellendus voluptate ad quas doloremque iusto sit ullam aperiam at
+      laboriosam!
+    </aside>
+    <footer>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium,
+        magnam aliquid. Officiis dolorum repellendus eius nam expedita,
+        reprehenderit, voluptatum illo aut architecto nobis doloremque incidunt
+        quasi, explicabo praesentium illum. Et.
+      </p>
+    </footer>
+  </body>
+</html>
