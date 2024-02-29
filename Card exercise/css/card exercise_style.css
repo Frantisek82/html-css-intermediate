@@ -6,7 +6,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 section {
   display: flex;
@@ -20,9 +20,7 @@ div {
   border: 3px solid #963762;
   border-radius: 0.3em;
   width: 20em;
-  margin-left: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5%;
 }
 img {
   width: inherit;
@@ -31,11 +29,13 @@ img {
 h1 {
   margin-top: 5%;
   padding-left: 5%;
+  font-weight: bolder;
 }
 h2 {
   color: #5e6063;
   margin-top: 0.05em;
   padding-left: 5%;
+  font-weight: 400;
 }
 p {
   margin-top: 0.5em;
