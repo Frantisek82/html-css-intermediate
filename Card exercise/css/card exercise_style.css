@@ -13,7 +13,8 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-self: center;}
+  align-self: center;
+}
 div {
   background-color: #222222;
   border: 3px solid #963762;
@@ -46,8 +47,9 @@ p {
 .button2 {
   background-color: #222222;
   color: #ce3071;
-  border: 5px solid #f25631;
   padding: 1em;
-  margin: 5%;
-  width: 9em;
+  border: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, yellow, #ce3071) 1;
+  margin: 5% 0 5% 5%;
 }
