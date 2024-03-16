@@ -6,13 +6,13 @@
 body {
   background-color: #eeeeee;
 }
-.altogether {
+.container {
   position: absolute;
   padding: 0;
   margin-top: 10%;
   margin-left: 40%;
 }
-.TopPart {
+.header {
   background-color: #fff;
   max-width: fit-content;
   padding: 1em;
@@ -22,12 +22,15 @@ body {
 img {
   padding: 0 4em 2em 4em;
 }
-.ParagraphAndStars {
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.shopping {
+i{
+  color: #ff0000;
+}
+.footer {
   background-color: #fff;
   border-top: 2px solid #eeeeee;
   width: 28.1em;
@@ -37,7 +40,7 @@ img {
   align-content: stretch;
   justify-content: space-between;
 }
-.heading {
+.atFooter {
   margin-top: 0.3em;
   margin-left: 1.2em;
   line-height: 1.5;
