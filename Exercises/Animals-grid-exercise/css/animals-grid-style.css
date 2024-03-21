@@ -39,7 +39,7 @@ section {
   font-family: "Viga", sans-serif;
   font-style: italic;
   font-size: 1rem;
-  text-shadow: 1px 1px 2px gray;
+  text-shadow: 1px 1px 5px #000;
   border: solid 0.1px grey;
   box-shadow: 1px 1px 2px #000;
 }
@@ -72,17 +72,20 @@ displaed in Full Screen mode of the page */
 }
 .text8,
 .text9,
-.text10,
-.text11,
 .text16 {
   position: absolute;
-  bottom: 30.4em;
+  bottom: 22.4em;
+}
+.text10,
+.text11 {
+  position: absolute;
+  bottom: 20.2em;
 }
 .text12,
 .text13,
 .text14 {
   position: absolute;
-  bottom: 22.2em;
+  bottom: 19.9em;
 }
 .text18,
 .text23,
@@ -92,20 +95,23 @@ displaed in Full Screen mode of the page */
 }
 .text19 {
   position: absolute;
-  bottom: 41.4em;
+  bottom: 31.7em;
 }
 .text21,
 .text22 {
   position: absolute;
-  bottom: 30.3em;
+  bottom: 26.6em;
 }
-.text17,
 .text25,
 .text26,
-.text28,
+.text28 {
+  position: absolute;
+  bottom: 46em;
+}
+.text17,
 .text29 {
   position: absolute;
-  bottom: 30.4em;
+  bottom: 42.8em;
 }
 .a {
   grid-column: 1;
