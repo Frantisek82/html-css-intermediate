@@ -50,6 +50,8 @@ img {
   width: 100%;
   height: 100%;
 }
+/* All the text is correctly 
+displaed in Full Screen mode of the page */
 .text1,
 .text2 {
   position: absolute;
